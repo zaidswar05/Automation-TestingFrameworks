@@ -168,3 +168,70 @@ java.lang.AssertionError: User navigated away despite invalid credentials. expec
 	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
 	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109) [testng-rt.jar:?]
 [19:06:27.919] INFO  [main] T.LoginTest - Terminating browser session.
+[19:25:33.075] INFO  [main] T.LoginTestSoftAsserts - Configuring ChromeOptions to prevent browser initialization hangs...
+[19:25:35.043] INFO  [main] T.LoginTestSoftAsserts - Browser initialized successfully.
+[19:25:35.045] INFO  [main] T.LoginTestSoftAsserts - === Starting testInvalidLogin (Priority 1) ===
+[19:25:35.051] INFO  [main] T.LoginTestSoftAsserts - Navigating to target URL
+[19:25:39.139] INFO  [main] T.LoginTestSoftAsserts - Attempting login with invalid credentials
+[19:25:40.228] INFO  [main] T.LoginTestSoftAsserts - Performing soft assertion on URL for invalid login
+[19:25:40.230] INFO  [main] T.LoginTestSoftAsserts - === Completed testInvalidLogin execution steps ===
+[19:25:40.233] INFO  [main] T.LoginTestSoftAsserts - Terminating browser session.
+[19:25:40.607] INFO  [main] T.LoginTestSoftAsserts - Configuring ChromeOptions to prevent browser initialization hangs...
+[19:25:42.029] INFO  [main] T.LoginTestSoftAsserts - Browser initialized successfully.
+[19:25:42.030] INFO  [main] T.LoginTestSoftAsserts - === Starting testValidLogin (Priority 2) ===
+[19:25:42.030] INFO  [main] T.LoginTestSoftAsserts - Navigating to target URL
+[19:25:47.120] INFO  [main] T.LoginTestSoftAsserts - Attempting login with valid credentials
+[19:25:49.125] INFO  [main] T.LoginTestSoftAsserts - Performing soft assertion on destination URL for valid login
+[19:25:49.127] INFO  [main] T.LoginTestSoftAsserts - === Completed testValidLogin execution steps ===
+[19:25:49.129] INFO  [main] T.LoginTestSoftAsserts - Terminating browser session.
+[19:28:21.019] INFO  [main] T.LoginTest - Configuring ChromeOptions to prevent browser initialization hangs...
+[19:28:23.112] INFO  [main] T.LoginTest - Browser initialized successfully.
+[19:28:23.115] INFO  [main] T.LoginTest - === Starting testInvalidLogin (Priority 1) ===
+[19:28:23.123] INFO  [main] T.LoginTest - Navigating to target URL
+[19:28:28.742] INFO  [main] T.LoginTest - Attempting login with invalid credentials
+[19:28:29.507] INFO  [main] T.LoginTest - Assertion passed: User remained on the login endpoint.
+[19:28:29.507] INFO  [main] T.LoginTest - === Completed testInvalidLogin successfully ===
+[19:28:29.510] INFO  [main] T.LoginTest - Terminating browser session.
+[19:28:29.713] INFO  [main] T.LoginTest - Configuring ChromeOptions to prevent browser initialization hangs...
+[19:28:30.419] INFO  [main] T.LoginTest - Browser initialized successfully.
+[19:28:30.421] INFO  [main] T.LoginTest - === Starting testValidLogin (Priority 2) ===
+[19:28:30.421] INFO  [main] T.LoginTest - Navigating to target URL
+[19:28:34.678] INFO  [main] T.LoginTest - Attempting login with valid credentials
+[19:28:37.090] INFO  [main] T.LoginTest - Assertion passed: User redirected to correct landing URL.
+[19:28:37.090] INFO  [main] T.LoginTest - === Completed testValidLogin successfully ===
+[19:28:37.092] INFO  [main] T.LoginTest - Terminating browser session.
+[19:29:32.870] INFO  [main] T.LoginTestSoftAsserts - Configuring ChromeOptions to prevent browser initialization hangs...
+[19:29:34.108] INFO  [main] T.LoginTestSoftAsserts - Browser initialized successfully.
+[19:29:34.110] INFO  [main] T.LoginTestSoftAsserts - === Starting testInvalidLogin (Priority 1) ===
+[19:29:34.127] INFO  [main] T.LoginTestSoftAsserts - Navigating to target URL
+[19:29:38.705] INFO  [main] T.LoginTestSoftAsserts - Attempting login with invalid credentials
+[19:29:40.194] INFO  [main] T.LoginTestSoftAsserts - Performing soft assertion on URL for invalid login
+[19:29:40.197] INFO  [main] T.LoginTestSoftAsserts - === Completed testInvalidLogin execution steps ===
+[19:29:40.199] INFO  [main] T.LoginTestSoftAsserts - Terminating browser session.
+[19:29:40.371] INFO  [main] T.LoginTestSoftAsserts - Configuring ChromeOptions to prevent browser initialization hangs...
+[19:29:40.960] INFO  [main] T.LoginTestSoftAsserts - Browser initialized successfully.
+[19:29:40.962] INFO  [main] T.LoginTestSoftAsserts - === Starting testValidLogin (Priority 2) ===
+[19:29:40.962] INFO  [main] T.LoginTestSoftAsserts - Navigating to target URL
+[19:29:45.287] INFO  [main] T.LoginTestSoftAsserts - Attempting login with valid credentials
+[19:29:47.242] INFO  [main] T.LoginTestSoftAsserts - Performing soft assertion on destination URL for valid login
+[19:29:47.243] INFO  [main] T.LoginTestSoftAsserts - === Completed testValidLogin execution steps ===
+[19:29:47.244] INFO  [main] T.LoginTestSoftAsserts - Terminating browser session.
+[19:31:10.984] INFO  [main] o.t.i.Utils - [TestNG] Running:
+  C:\Users\ccst\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
+
+[19:31:11.027] INFO  [main] T.LoginTestSoftAsserts - Configuring ChromeOptions to prevent browser initialization hangs...
+[19:31:12.209] INFO  [main] T.LoginTestSoftAsserts - Browser initialized successfully.
+[19:31:12.212] INFO  [main] T.LoginTestSoftAsserts - === Starting testInvalidLogin (Priority 1) ===
+[19:31:12.219] INFO  [main] T.LoginTestSoftAsserts - Navigating to target URL
+[19:31:16.474] INFO  [main] T.LoginTestSoftAsserts - Attempting login with invalid credentials
+[19:31:17.161] INFO  [main] T.LoginTestSoftAsserts - Performing soft assertion on URL for invalid login
+[19:31:17.164] INFO  [main] T.LoginTestSoftAsserts - === Completed testInvalidLogin execution steps ===
+[19:31:17.167] INFO  [main] T.LoginTestSoftAsserts - Terminating browser session.
+[19:31:17.443] INFO  [main] T.LoginTestSoftAsserts - Configuring ChromeOptions to prevent browser initialization hangs...
+[19:31:18.088] INFO  [main] T.LoginTestSoftAsserts - Browser initialized successfully.
+[19:31:18.091] INFO  [main] T.LoginTestSoftAsserts - === Starting testValidLogin (Priority 2) ===
+[19:31:18.091] INFO  [main] T.LoginTestSoftAsserts - Navigating to target URL
+[19:31:24.043] INFO  [main] T.LoginTestSoftAsserts - Attempting login with valid credentials
+[19:31:26.242] INFO  [main] T.LoginTestSoftAsserts - Performing soft assertion on destination URL for valid login
+[19:31:26.243] INFO  [main] T.LoginTestSoftAsserts - === Completed testValidLogin execution steps ===
+[19:31:26.246] INFO  [main] T.LoginTestSoftAsserts - Terminating browser session.

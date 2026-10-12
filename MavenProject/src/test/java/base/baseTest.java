@@ -8,11 +8,13 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.asserts.SoftAssert;
 
 import java.time.Duration;
 
 public class baseTest {
     protected WebDriver driver;
+    protected SoftAssert soft;
     protected final Logger log = LogManager.getLogger(getClass());
 
     @BeforeMethod
@@ -25,24 +27,30 @@ public class baseTest {
         options.addArguments("--no-sandbox");
         options.addArguments("--start-maximized");
 
-        // Stops page load from hanging on heavy third-party ads/analytics scripts
         options.setPageLoadStrategy(PageLoadStrategy.EAGER);
 
         driver = new ChromeDriver(options);
 
-        // Fail-fast timeout so Selenium doesn't hang at data:, indefinitely
         driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(30));
         driver.manage().timeouts().scriptTimeout(Duration.ofSeconds(30));
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+
+        soft = new SoftAssert();
 
         log.info("Browser initialized successfully.");
     }
 
     @AfterMethod(alwaysRun = true)
     public void tearDown() {
-        if (driver != null) {
-            log.info("Terminating browser session.");
-            driver.quit();
+        try {
+            if (soft != null) {
+                soft.assertAll();
+            }
+        } finally {
+            if (driver != null) {
+                log.info("Terminating browser session.");
+                driver.quit();
+            }
         }
     }
 }

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+    <Appenders>
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="[%d{HH:mm:ss.SSS}] %-5level %logger{36} - %msg%n"/>
+        </Console>
+
+        <RollingFile name="File" fileName="logs/app.log" filePattern="logs/app-%d{yyyy-MM-dd}-%i.log.gz">
+            <PatternLayout pattern="[%d{HH:mm:ss.SSS}] %-5level [%t] %c{1.} - %msg%n"/>
+            <SizeBasedTriggeringPolicy size="5 MB"/>
+        </RollingFile>
+
+        <RollingFile name="ErrorsFile" fileName="logs/errors.log" filePattern="logs/errors-%i.log">
+            <ThresholdFilter level="WARN" onMatch="ACCEPT" onMismatch="DENY"/>
+            <PatternLayout pattern="[%d{HH:mm:ss.SSS}] %-5level [%t] %c{1.} - %msg%n"/>
+            <SizeBasedTriggeringPolicy size="5 MB"/>
+        </RollingFile>
+    </Appenders>
+    <Loggers>
+        <Logger name="Test" level="debug"/>
+        <Logger name="pages" level="debug"/>
+        <Logger name="base" level="debug"/>
+
+        <Root level="info">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="File"/>
+            <AppenderRef ref="ErrorsFile"/>
+        </Root>
+    </Loggers>
+</Configuration>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="MavenProject(failed)">
+    <classes>
+      <class name="Test.LoginTest">
+        <methods>
+          <include name="testValidLogin"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="testInvalidLogin"/>
+        </methods>
+      </class> <!-- Test.LoginTest -->
+    </classes>
+  </test> <!-- MavenProject(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->

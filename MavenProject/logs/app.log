@@ -1,0 +1,170 @@
+[15:11:58.556] INFO  [main] T.LoginTest - === Starting testValidLogin ===
+[15:11:58.566] INFO  [main] T.LoginTest - Navigating to target URL
+[15:12:08.387] INFO  [main] T.LoginTest - Attempting login with provided credentials
+[15:12:17.973] INFO  [main] T.LoginTest - Assertion passed: User redirected to correct landing URL.
+[15:12:17.974] INFO  [main] T.LoginTest - === Completed testValidLogin successfully ===
+[16:15:13.265] INFO  [main] T.LoginTest - === Starting testValidLogin ===
+[16:15:13.282] INFO  [main] T.LoginTest - Navigating to target URL
+[16:15:20.664] INFO  [main] T.LoginTest - Attempting login with provided credentials
+[16:15:35.456] INFO  [main] T.LoginTest - Assertion passed: User redirected to correct landing URL.
+[16:15:35.457] INFO  [main] T.LoginTest - === Completed testValidLogin successfully ===
+[16:16:49.658] INFO  [main] T.LoginTest - === Starting testValidLogin ===
+[16:16:49.667] INFO  [main] T.LoginTest - Navigating to target URL
+[16:17:05.476] INFO  [main] T.LoginTest - Attempting login with provided credentials
+[16:17:16.384] INFO  [main] T.LoginTest - Assertion passed: User redirected to correct landing URL.
+[16:17:16.384] INFO  [main] T.LoginTest - === Completed testValidLogin successfully ===
+[16:22:51.328] INFO  [main] T.LoginTest - === Starting testValidLogin ===
+[16:22:51.335] INFO  [main] T.LoginTest - Navigating to target URL
+[16:22:58.918] INFO  [main] T.LoginTest - Attempting login with provided credentials
+[16:23:23.682] INFO  [main] T.LoginTest - Assertion passed: User redirected to correct landing URL.
+[16:23:23.683] INFO  [main] T.LoginTest - === Completed testValidLogin successfully ===
+[16:26:31.911] INFO  [main] T.LoginTest - === Starting testValidLogin ===
+[16:26:31.918] INFO  [main] T.LoginTest - Navigating to target URL
+[16:26:32.150] INFO  [main] T.LoginTest - Attempting login with provided credentials
+[16:26:56.968] INFO  [main] T.LoginTest - === Starting testValidLogin ===
+[16:26:56.986] INFO  [main] T.LoginTest - Navigating to target URL
+[16:26:59.882] INFO  [main] T.LoginTest - Attempting login with provided credentials
+[16:28:34.961] INFO  [main] T.LoginTest - === Starting testValidLogin ===
+[16:28:34.970] INFO  [main] T.LoginTest - Navigating to target URL
+[16:28:43.595] INFO  [main] T.LoginTest - Attempting login with provided credentials
+[16:28:52.284] INFO  [main] T.LoginTest - Assertion passed: User redirected to correct landing URL.
+[16:28:52.285] INFO  [main] T.LoginTest - === Completed testValidLogin successfully ===
+[17:55:13.284] INFO  [main] T.LoginTest - === Starting testValidLogin ===
+[17:55:13.292] INFO  [main] T.LoginTest - Navigating to target URL
+[17:55:14.011] INFO  [main] T.LoginTest - Attempting login with provided credentials
+[17:55:33.753] INFO  [main] T.LoginTest - === Starting testValidLogin ===
+[17:55:33.764] INFO  [main] T.LoginTest - Navigating to target URL
+[17:55:39.087] INFO  [main] T.LoginTest - Attempting login with provided credentials
+[17:55:45.293] INFO  [main] T.LoginTest - Assertion passed: User redirected to correct landing URL.
+[17:55:45.294] INFO  [main] T.LoginTest - === Completed testValidLogin successfully ===
+[18:03:18.864] INFO  [main] T.LoginTest - Starting @BeforeMethod execution...
+[18:23:53.192] INFO  [main] T.LoginTest - === Starting testValidLogin ===
+[18:23:53.201] INFO  [main] T.LoginTest - Navigating to target URL
+[18:23:53.266] INFO  [main] T.LoginTest - Attempting login with provided credentials
+[18:24:11.539] INFO  [main] T.LoginTest - === Starting testValidLogin ===
+[18:24:11.550] INFO  [main] T.LoginTest - Navigating to target URL
+[18:24:16.127] INFO  [main] T.LoginTest - Attempting login with provided credentials
+[18:24:21.595] INFO  [main] T.LoginTest - Assertion passed: User redirected to correct landing URL.
+[18:24:21.595] INFO  [main] T.LoginTest - === Completed testValidLogin successfully ===
+[18:56:20.308] INFO  [main] T.LoginTest - === Starting testValidLogin ===
+[18:56:20.320] INFO  [main] T.LoginTest - Navigating to target URL
+[18:56:20.623] INFO  [main] T.LoginTest - Attempting login with provided credentials
+[18:56:55.042] INFO  [main] T.LoginTest - === Starting testValidLogin ===
+[18:56:55.050] INFO  [main] T.LoginTest - Navigating to target URL
+[18:56:55.106] INFO  [main] T.LoginTest - Attempting login with provided credentials
+[18:58:06.879] INFO  [main] T.LoginTest - === Starting testValidLogin ===
+[18:58:06.886] INFO  [main] T.LoginTest - Navigating to target URL
+[18:58:13.180] INFO  [main] T.LoginTest - Attempting login with provided credentials
+[18:58:18.037] INFO  [main] T.LoginTest - Assertion passed: User redirected to correct landing URL.
+[18:58:18.037] INFO  [main] T.LoginTest - === Completed testValidLogin successfully ===
+[18:58:19.826] INFO  [main] T.LoginTest - === Starting testValidLogin ===
+[18:58:19.826] INFO  [main] T.LoginTest - Navigating to target URL
+[18:58:20.397] INFO  [main] T.LoginTest - Attempting login with provided credentials
+[18:59:46.955] INFO  [main] T.LoginTest - === Starting testInvalidLogin (Priority 1) ===
+[18:59:46.962] INFO  [main] T.LoginTest - Navigating to target URL
+[18:59:52.849] INFO  [main] T.LoginTest - Attempting login with invalid credentials
+[18:59:58.046] INFO  [main] T.LoginTest - Assertion passed: User remained on the login endpoint.
+[18:59:58.046] INFO  [main] T.LoginTest - === Completed testInvalidLogin successfully ===
+[19:00:00.056] INFO  [main] T.LoginTest - === Starting testValidLogin (Priority 2) ===
+[19:00:00.057] INFO  [main] T.LoginTest - Navigating to target URL
+[19:00:00.438] INFO  [main] T.LoginTest - Attempting login with valid credentials
+[19:00:27.248] INFO  [main] T.LoginTest - === Starting testInvalidLogin (Priority 1) ===
+[19:00:27.257] INFO  [main] T.LoginTest - Navigating to target URL
+[19:00:27.503] INFO  [main] T.LoginTest - Attempting login with invalid credentials
+[19:00:42.204] INFO  [main] T.LoginTest - === Starting testInvalidLogin (Priority 1) ===
+[19:00:42.212] INFO  [main] T.LoginTest - Navigating to target URL
+[19:00:43.410] INFO  [main] T.LoginTest - Attempting login with invalid credentials
+[19:00:55.645] INFO  [main] T.LoginTest - === Starting testValidLogin (Priority 2) ===
+[19:00:55.645] INFO  [main] T.LoginTest - Navigating to target URL
+[19:00:55.804] INFO  [main] T.LoginTest - Attempting login with valid credentials
+[19:03:08.666] INFO  [main] T.LoginTest - Configuring ChromeOptions to prevent browser initialization hangs...
+[19:03:10.630] INFO  [main] T.LoginTest - Browser initialized successfully.
+[19:03:10.634] INFO  [main] T.LoginTest - === Starting testInvalidLogin (Priority 1) ===
+[19:03:10.639] INFO  [main] T.LoginTest - Navigating to target URL
+[19:03:14.655] INFO  [main] T.LoginTest - Attempting login with invalid credentials
+[19:03:15.561] INFO  [main] T.LoginTest - Assertion passed: User remained on the login endpoint.
+[19:03:15.561] INFO  [main] T.LoginTest - === Completed testInvalidLogin successfully ===
+[19:03:15.565] INFO  [main] T.LoginTest - Terminating browser session.
+[19:03:15.940] INFO  [main] T.LoginTest - Configuring ChromeOptions to prevent browser initialization hangs...
+[19:03:17.382] INFO  [main] T.LoginTest - Browser initialized successfully.
+[19:03:17.384] INFO  [main] T.LoginTest - === Starting testValidLogin (Priority 2) ===
+[19:03:17.384] INFO  [main] T.LoginTest - Navigating to target URL
+[19:03:21.009] INFO  [main] T.LoginTest - Attempting login with valid credentials
+[19:03:22.592] INFO  [main] T.LoginTest - Assertion passed: User redirected to correct landing URL.
+[19:03:22.593] INFO  [main] T.LoginTest - === Completed testValidLogin successfully ===
+[19:03:22.594] INFO  [main] T.LoginTest - Terminating browser session.
+[19:05:32.198] INFO  [main] T.LoginTest - Configuring ChromeOptions to prevent browser initialization hangs...
+[19:05:50.179] INFO  [main] T.LoginTest - Configuring ChromeOptions to prevent browser initialization hangs...
+[19:05:51.936] INFO  [main] T.LoginTest - Browser initialized successfully.
+[19:05:51.939] INFO  [main] T.LoginTest - === Starting testInvalidLogin (Priority 1) ===
+[19:05:51.943] INFO  [main] T.LoginTest - Navigating to target URL
+[19:05:56.848] INFO  [main] T.LoginTest - Attempting login with invalid credentials
+[19:05:57.256] ERROR [main] T.LoginTest - Assertion failed: Expected to stay on login page, but URL was: https://www.automationexercise.com/login
+java.lang.AssertionError: User navigated away despite invalid credentials. expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.failNotEquals(Assert.java:1578) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.assertTrue(Assert.java:57) ~[testng-7.10.2.jar:7.10.2]
+	at Test.LoginTest.testInvalidLogin(LoginTest.java:30) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109) [testng-rt.jar:?]
+[19:05:57.271] INFO  [main] T.LoginTest - Terminating browser session.
+[19:06:21.159] INFO  [main] T.LoginTest - Configuring ChromeOptions to prevent browser initialization hangs...
+[19:06:23.140] INFO  [main] T.LoginTest - Browser initialized successfully.
+[19:06:23.146] INFO  [main] T.LoginTest - === Starting testInvalidLogin (Priority 1) ===
+[19:06:23.155] INFO  [main] T.LoginTest - Navigating to target URL
+[19:06:27.132] INFO  [main] T.LoginTest - Attempting login with invalid credentials
+[19:06:27.905] ERROR [main] T.LoginTest - Assertion failed: Expected to stay on login page, but URL was: https://www.automationexercise.com/login
+java.lang.AssertionError: User navigated away despite invalid credentials. expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.failNotEquals(Assert.java:1578) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.assertTrue(Assert.java:57) ~[testng-7.10.2.jar:7.10.2]
+	at Test.LoginTest.testInvalidLogin(LoginTest.java:30) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109) [testng-rt.jar:?]
+[19:06:27.919] INFO  [main] T.LoginTest - Terminating browser session.
